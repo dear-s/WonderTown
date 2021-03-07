@@ -1,18 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home">
+    <h4 id="title">Welcome to WonderTown!</h4>
+    <el-input id="homeInput" v-model="input" placeholder="What's your desire?"></el-input>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
 </script>
+
+<style>
+#title {
+  color: white;
+  font-size: 36px;
+}
+
+#homeInput {
+  width: 50%;
+  height:40px;
+  text-align: center;
+}
+
+/* #homeInput-text >>> .el-input__inner {
+  -moz-appearance: none;
+  font-size: 16px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #b6d8f1;
+  color: #6a6f77;
+} */
+</style>
