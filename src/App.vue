@@ -4,9 +4,9 @@
       <div id="header">
         <img src="./assets/logo.png" width="70px" height="70px"/>
         <router-link to="/" class="headerFont">Home</router-link>
-        <div style="margin: 5px 30px; text-align:right; position:flex">
-          <iframe src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" width="80" height="60" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
+        <audio autoplay loop>
+          <source src="./assets/Our Hideaway.mp3" type="audio/mpeg" />
+        </audio>
       </div>
       <router-view/>
     </div>

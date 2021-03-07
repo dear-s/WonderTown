@@ -2,6 +2,7 @@
   <div id="home">
     <h4 id="title">Welcome to WonderTown!</h4>
     <el-input id="homeInput" v-model="desireInput" placeholder="What's your desire?"></el-input>
+    <el-button style="margin-top:20px;">Submit</el-button>
   </div>
 </template>
 
