@@ -32,8 +32,6 @@ export default {
 </script>
 
 <style>
-#nav {
-}
 .contentblock {
     background-color: white;
     width: 35%;
