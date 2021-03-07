@@ -20,7 +20,6 @@ export default {
   color: white;
   font-size: 36px;
 }
-
 #homeInput {
   width: 50%;
   height:40px;
